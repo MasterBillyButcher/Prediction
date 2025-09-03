@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nominated Contestent</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="overlay"></div>
+
+  <header>
+    <h2>NOMINATED CONTETSTENTS</h2>
+    <div class="user-profile">
+      <div id="login-status">Not logged in</div>
+      <a href="https://id.twitch.tv/oauth2/authorize?client_id=YOUR_TWITCH_CLIENT_ID&redirect_uri=YOUR_SITE_URL&response_type=token&scope=user:read:email">
+        <button>Login</button>
+      </a>
+    </div>
+  </header>
+
+  <main id="contestants">
+    <div class="card">
+      <a href="https://www.instagram.com/awez_darbar/" target="_blank">
+        <div class="img-container">
+          <img src="Contestent Photo/Awez Darbar.jpg" alt="Awez Darbar" />
+          <div class="name-overlay">AWEZ DARBAR</div>
+        </div>
+      </a>
+      <button class="vote-button" onclick="vote('Awez Darbar')">Vote</button>
+      <p id="count-Awez Darbar" class="vote-count">Votes: ?</p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.instagram.com/tanya_mittal/" target="_blank">
+        <div class="img-container">
+          <img src="Contestent Photo/Tanya Mittal.jpg" alt="Taniya Mittal" />
+          <div class="name-overlay">TANYA MITTAL</div>
+        </div>
+      </a>
+      <button class="vote-button" onclick="vote('Taniya Mittal')">Vote</button>
+      <p id="count-Taniya Mittal" class="vote-count">Votes: ?</p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.instagram.com/amaal_mallik/" target="_blank">
+        <div class="img-container">
+          <img src="Contestent Photo/Amaal Mallik.jpg" alt="Amaal Mallik" />
+          <div class="name-overlay">AMAAL MALLIK</div>
+        </div>
+      </a>
+      <button class="vote-button" onclick="vote('Amaal Mallik')">Vote</button>
+      <p id="count-Amaal Mallik" class="vote-count">Votes: ?</p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.instagram.com/kunickaa_sadanand/" target="_blank">
+        <div class="img-container">
+          <img src="Contestent Photo/Kunickaa Sadanand.jpg" alt="Kunickaa Sadanand" />
+          <div class="name-overlay">KUNICKAA SADANAND</div>
+        </div>
+      </a>
+      <button class="vote-button" onclick="vote('Kunickaa Sadanand')">Vote</button>
+      <p id="count-Kunickaa Sadanand" class="vote-count">Votes: ?</p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.instagram.com/the_mridul/" target="_blank">
+        <div class="img-container">
+          <img src="Contestent Photo/Mridul Tiwari.jpg" alt="Mridul Tiwari" />
+          <div class="name-overlay">MRIDUL TIWARI</div>
+        </div>
+      </a>
+      <button class="vote-button" onclick="vote('Mridul Tiwari')">Vote</button>
+      <p id="count-Mridul Tiwari" class="vote-count">Votes: ?</p>
+    </div>
+  </main>
+</body>
+<script type="module" src="script.js"></script>
+</html>
