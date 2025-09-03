@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif; /* ⬅️ Changed this line */
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   color: var(--text-light);
   display: flex;
@@ -163,12 +163,4 @@ header h2 {
   color: var(--secondary-color);
   font-weight: bold;
   margin-bottom: 1rem;
-}
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.card {
-    animation: fadeIn 1s ease-out;
 }
